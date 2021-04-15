@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import { profileActions } from '../../store/profile'
+import { profileActions } from '../../store/profile/actions'
 
 export const Form = () => {
     const dispatch = useDispatch()
